@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "be725c1db07c94e3",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f2a5e31da44de23",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d57c989134ce9c3e",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "kubernetes/charts/loki/Componentes.canvas",
+                "viewState": {
+                  "x": -430,
+                  "y": 58.5,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Componentes"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "18d70c18b04abe82",
+    "type": "split",
+    "children": [
+      {
+        "id": "84cd97116035a88f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "633a265236fdd724",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "34b36fcd421081e5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "763af0d83ce7abe8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c2a8a55e91c334bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "6575c1268aa27b7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1b089e5a6927b669",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "aws/SAM.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for SAM"
+            }
+          },
+          {
+            "id": "9599423111ce4737",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "aws/SAM.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from SAM"
+            }
+          },
+          {
+            "id": "6f4e8414e786aacc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d9d495e1b852d5fe",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "545ea8d4b98d7774",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "aws/SAM.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of SAM"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "633a265236fdd724",
+  "lastOpenFiles": [
+    "kubernetes/charts/loki/Componentes.canvas",
+    "Untitled.base",
+    "kubernetes/charts/loki/Distributor.md",
+    "kubernetes/charts/loki/Compactor.md",
+    "kubernetes/charts/loki/Gateway.md",
+    "kubernetes/charts/loki/Ingester.md",
+    "kubernetes/charts/loki/Querier.md",
+    "kubernetes/charts/loki/Query Frontend.md",
+    "kubernetes/charts/loki/Ring.md",
+    "kubernetes/charts/loki/Schema Config.md",
+    "aws/SAM.md",
+    "aws/DynamoDB.md",
+    "go/CRUD Dynamo.md",
+    "Untitled.canvas",
+    "go",
+    "aws/Application Load Balancer.md",
+    "kubernetes/charts/loki",
+    "kubernetes/charts",
+    "kubernetes",
+    "aws",
+    "Welcome.md"
+  ]
+}

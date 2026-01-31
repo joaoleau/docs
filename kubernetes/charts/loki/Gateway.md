@@ -1,0 +1,3 @@
+Loki Gateway é quem recebe as requisições, seja de ingestão de logs quanto a leitura. Por tanto, querendo ou não é uma peça que há risco centralizado.
+
+Por de baixo dos panos o Gateway é apenas um Nginx, literalmente. Isso significa que para auth basta configurar o ".httpasswd" (acredito que seja assim que escreve), tal como é possível configurar endpoint de métricas, e usando um Nginx Exporter transformer em métricas parseadas para o Prometheus.
