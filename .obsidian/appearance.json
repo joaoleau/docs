@@ -1,4 +1,7 @@
 {
-  "cssTheme": "Blue Topaz",
-  "textFontFamily": "Comic Sans MS"
+  "cssTheme": "Notation",
+  "textFontFamily": "Trebuchet MS,Comic Sans MS",
+  "baseFontSizeAction": true,
+  "baseFontSize": 20,
+  "theme": "moonstone"
 }

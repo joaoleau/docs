@@ -1,5 +1,5 @@
 
-Serverless Application Model 
+Serverless Application Model ggfg
 Ferramenta para deploy de aplicações serverless via YAML, por base roda CloudFormation, mas a fim de não complicar a criação/provisionamento dessas ferramentas, criou-se o SAM.
 
 Legal do SAM é que dar pra rodar local via Docker.

@@ -11,20 +11,44 @@
             "id": "d57c989134ce9c3e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "kubernetes/charts/loki/Componentes.canvas",
-                "viewState": {
-                  "x": -430,
-                  "y": 58.5,
-                  "zoom": 0
-                }
+                "file": "aws/src/Application Load Balancer.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Componentes"
+              "icon": "lucide-file",
+              "title": "Application Load Balancer"
+            }
+          },
+          {
+            "id": "b8af5e1f1b67ba77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "aws/src/DynamoDB.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DynamoDB"
+            }
+          },
+          {
+            "id": "67b4f362ec5cda71",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/Pasted image 20260208211223.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260208211223"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -81,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 322.5
   },
   "right": {
     "id": "c2a8a55e91c334bd",
@@ -97,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "aws/SAM.md",
+                "file": "assets/Pasted image 20260208211223.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +131,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for SAM"
+              "title": "Backlinks for Pasted image 20260208211223"
             }
           },
           {
@@ -116,12 +140,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "aws/SAM.md",
+                "file": "assets/Pasted image 20260208211223.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from SAM"
+              "title": "Outgoing links from Pasted image 20260208211223"
             }
           },
           {
@@ -159,21 +183,31 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "aws/SAM.md",
+                "file": "kubernetes/charts/loki/Componentes.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SAM"
+              "title": "Outline of Componentes"
+            }
+          },
+          {
+            "id": "1a573d6c3df56f9a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,31 +217,57 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "633a265236fdd724",
+  "active": "1a573d6c3df56f9a",
   "lastOpenFiles": [
-    "kubernetes/charts/loki/Componentes.canvas",
-    "Untitled.base",
-    "kubernetes/charts/loki/Distributor.md",
-    "kubernetes/charts/loki/Compactor.md",
-    "kubernetes/charts/loki/Gateway.md",
-    "kubernetes/charts/loki/Ingester.md",
-    "kubernetes/charts/loki/Querier.md",
-    "kubernetes/charts/loki/Query Frontend.md",
-    "kubernetes/charts/loki/Ring.md",
-    "kubernetes/charts/loki/Schema Config.md",
-    "aws/SAM.md",
-    "aws/DynamoDB.md",
-    "go/CRUD Dynamo.md",
     "Untitled.canvas",
-    "go",
-    "aws/Application Load Balancer.md",
-    "kubernetes/charts/loki",
-    "kubernetes/charts",
-    "kubernetes",
-    "aws",
+    "2026-02-07.md",
+    "assets/Pasted image 20260208211223.png",
+    "assets/Pasted image 20260208205115.png",
+    "aws/src/lb/Load Balance Cross-zone.md",
+    "aws/src/lb/Application Load Balancer.md",
+    "aws/src/cdk/AWS CDK & CloudFormation.md",
+    "assets/Pasted image 20260208214843.png",
+    "assets/Pasted image 20260208214748.png",
+    "aws/src/cdk/SAM.md",
+    "aws/src/cdk/AWS CLI.md",
+    "aws/src/iam/IAM.md",
+    "assets/Pasted image 20260208212843.png",
+    "assets/Pasted image 20260208212705.png",
+    "assets/Pasted image 20260208212412.png",
+    "assets/Pasted image 20260208212305.png",
+    "aws/src/ec2/User Data & Cloud Init.md",
+    "kubernetes/charts/loki/Componentes.canvas",
+    "kubernetes/charts/loki/Compactor.md",
+    "assets/Pasted image 20260201222737.png",
+    "assets/Pasted image 20260201222104.png",
+    "kubernetes/charts/loki/Query Frontend.md",
+    "kubernetes/charts/loki/Querier.md",
+    "aws/src/serverless/API Gateway.md",
+    "aws/src/iam",
+    "aws/projects/api-gw-usage-plans",
+    "aws/src/serverless",
+    "aws/src/cdk/AWS",
+    "aws/src/cdk",
+    "kubernetes/charts/loki/Distributor.md",
+    "aws/src/ec2",
+    "Untitled.base",
+    "Untitled 1.base",
+    "Untitled 2.base",
+    "Untitled 3.base",
+    "aws/certs/Developer Associate Exam - Summary.md",
+    "aws/src/billing/AWS Budget.md",
+    "aws/src/dynamo/DynamoDB.md",
+    "aws/src/network/vpc.md",
+    "kubernetes/charts/loki/Ingester.md",
+    "kubernetes/charts/loki/Ring.md",
+    "kubernetes/charts/loki/Gateway.md",
+    "go/CRUD Dynamo.md",
+    "2026-02-01.md",
+    "kubernetes/charts/loki/Schema Config.md",
     "Welcome.md"
   ]
 }
