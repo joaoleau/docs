@@ -56,3 +56,5 @@ Para a Role abaixo:
 
 Se a Role tentar criar um User IAM ela será bloqueado por mais que há essa policy na Role, porém na Boundary não há essa policy permitida. Contudo, ela só vai poder manusear S3, Cloudwacth e EC2.
 
+## IAM Access Analyzer
+Ferramenta capaz de identificar Roles IAM não utilizadas e removê-las sem interromper serviços. Ele faz a busca baseada em logs do AWS CloudTrail, ajudando a identificar Role / Policy que não estão mais em uso, implicando no princípio do menor privilégio.
