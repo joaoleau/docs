@@ -1,3 +1,34 @@
+## IAM Variables
+É possível definir valores dinâmicos dentro das políticas usando _variáveis de política_ que definem espaços reservados em uma política.
+~={yellow}As variáveis são marcadas usando um prefixo **`$`** seguido por um par de chaves (**`{ }`**) que incluem o nome da variável do valor da solicitação.=~
+
+Quando a política for avaliada, suas variáveis serão substituídas por valores provenientes das chaves de contexto condicionais passadas na solicitação. As variáveis podem ser usadas em [políticas baseadas em identidade, políticas de recursos, políticas de controle de serviços, políticas de sessão](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html) e [políticas de endpoint da VPC](https://docs.aws.amazon.com/vpc/latest/privatelink/vpc-endpoints-access.html). As políticas baseadas em identidade usadas como limites de permissões também são compatíveis com variáveis de política.
+
+~={red}Não é case `sensitvie`: aws:CurrentTime equivale a `AWS:currenttime`=~
+
+Exemplo:
+```JSON
+{
+  "Version":"2012-10-17",		 	 	 
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": ["s3:ListBucket"],      
+      "Resource": ["arn:aws:s3:::amzn-s3-demo-bucket"],
+      "Condition": {"StringLike": {"s3:prefix": ["${aws:PrincipalTag/team}/*"]}}
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "s3:GetObject",
+        "s3:PutObject"
+      ],      
+      "Resource": ["arn:aws:s3:::amzn-s3-demo-bucket/${aws:PrincipalTag/team}/*"]
+    }
+  ]
+}
+
+```
 
 ## IAM Identity-based Policy
 **Identity-based policies** are attached to an IAM user, group, or role. These policies let you specify what that identity can do (its permissions). For example, you can attach the policy to the IAM user named John, stating that he is allowed to perform the Amazon EC2 `RunInstances` action. The policy could further state that John is allowed to get items from an Amazon DynamoDB table named `MyCompany`. You can also allow John to manage his own IAM security credentials.
@@ -58,3 +89,5 @@ Se a Role tentar criar um User IAM ela será bloqueado por mais que há essa pol
 
 ## IAM Access Analyzer
 Ferramenta capaz de identificar Roles IAM não utilizadas e removê-las sem interromper serviços. Ele faz a busca baseada em logs do AWS CloudTrail, ajudando a identificar Role / Policy que não estão mais em uso, implicando no princípio do menor privilégio.
+
+Vale ressaltar, que o IAM Access Analyzer também é a principal ferramenta quando falamos de detectar S3 públicos erroneamente, tal como outros recursos. Permitindo detectar acessos não intencionais aos seus recursos e dados, reduzindorisco de segurança. Contudo, é útil para IAM Resource-based Policy.

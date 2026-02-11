@@ -1,5 +1,7 @@
+### DAX
+O Amazon DynamoDB Accelerator (DAX) é um cache em memória totalmente gerenciado que melhora a performance das leituras do DynamoDB, reduzindo a latência de milissegundos para microssegundos.
 
-**Arquitetura**
+### **Arquitetura**
 Dynamo tem Partition Key (PK) e Sort Key (SK). A PK serve pra segregar conteúdos em blocos distintos, a ideia é ele ser de forma inicial um inventário, onde estando nele você pode procurar seu item utilizando a SK. 
 
 São permitidos apenas 3 tipos:

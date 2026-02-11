@@ -1,0 +1,2 @@
+
+- A AWS Lambda aloca capacidade de CPU proporcionalmente à quantidade de memória configurada para a função. Portanto, se é desejo aumentar capacidade de CPU, deverá ser feito ajuste na de memória.~={red} Não tem como ajustar apenas configuração de CPU na Lambda.=~

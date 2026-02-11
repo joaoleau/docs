@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "aws/src/Application Load Balancer.md",
+                "file": "aws/src/security/IAM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Application Load Balancer"
-            }
-          },
-          {
-            "id": "b8af5e1f1b67ba77",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/Pasted image 20260209210840.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260209210840"
+              "title": "IAM"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,30 +196,40 @@
   },
   "active": "633a265236fdd724",
   "lastOpenFiles": [
-    "aws/src/security/IAM.md",
+    "aws/src/serverless/Serverless Application Repository (SAR).md",
+    "aws/src/ec2/ASG.md",
+    "aws/src/ec2/User Data & Cloud Init.md",
+    "aws/src/elastic beanstalk/Elastic Beanstalk.md",
+    "assets/Pasted image 20260210232913.png",
+    "aws/src/dynamo/DynamoDB.md",
+    "aws/src/cdk/AWS CDK & CloudFormation.md",
+    "kubernetes/charts/loki/Compactor.md",
+    "aws/src/elastic beanstalk",
+    "aws/src/security/KMS.md",
+    "aws/src/serverless/Lambda.md",
     "aws/src/serverless/SQS.md",
     "aws/src/serverless/API Gateway.md",
+    "aws/src/s3/S3.md",
+    "aws/src/security/IAM.md",
+    "aws/src/s3",
+    "aws/src/network/vpc.md",
+    "aws/src/cdk/SAM.md",
+    "aws/src/cdk/AWS CLI.md",
+    "aws/certs/Developer Associate Exam - Summary.md",
+    "assets/Pasted image 20260209210840.png",
     "assets/Pasted image 20260209224245.png",
     "assets/Pasted image 20260209223531.png",
     "assets/Pasted image 20260209222433.png",
-    "aws/src/cdk/AWS CLI.md",
-    "aws/certs/Developer Associate Exam - Summary.md",
     "assets/Pasted image 20260209210949.png",
     "assets/Pasted image 20260209210915.png",
-    "assets/Pasted image 20260209210840.png",
     "assets/Pasted image 20260208211223.png",
     "Untitled.canvas",
     "2026-02-07.md",
     "assets/Pasted image 20260208205115.png",
     "aws/src/lb/Load Balance Cross-zone.md",
     "aws/src/lb/Application Load Balancer.md",
-    "aws/src/cdk/AWS CDK & CloudFormation.md",
     "assets/Pasted image 20260208214843.png",
-    "assets/Pasted image 20260208214748.png",
-    "aws/src/cdk/SAM.md",
-    "aws/src/ec2/User Data & Cloud Init.md",
     "kubernetes/charts/loki/Componentes.canvas",
-    "kubernetes/charts/loki/Compactor.md",
     "kubernetes/charts/loki/Query Frontend.md",
     "kubernetes/charts/loki/Querier.md",
     "aws/src/security",
@@ -244,17 +241,8 @@
     "aws/src/ec2",
     "Untitled.base",
     "Untitled 1.base",
-    "Untitled 2.base",
-    "Untitled 3.base",
     "aws/src/billing/AWS Budget.md",
-    "aws/src/dynamo/DynamoDB.md",
-    "aws/src/network/vpc.md",
     "kubernetes/charts/loki/Ingester.md",
-    "kubernetes/charts/loki/Ring.md",
-    "kubernetes/charts/loki/Gateway.md",
-    "go/CRUD Dynamo.md",
-    "2026-02-01.md",
-    "kubernetes/charts/loki/Schema Config.md",
-    "Welcome.md"
+    "kubernetes/charts/loki/Ring.md"
   ]
 }
