@@ -11,17 +11,90 @@
             "id": "d57c989134ce9c3e",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/Pasted image 20260211235033.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260211235033"
+            }
+          },
+          {
+            "id": "e2fd29c1c4c5ba39",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/Pasted image 20260211235023.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260211235023"
+            }
+          },
+          {
+            "id": "73c2dd8b4504ee7b",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/Pasted image 20260211235023.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260211235023"
+            }
+          },
+          {
+            "id": "d5ef2eff7d442cd8",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/Pasted image 20260211234746.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260211234746"
+            }
+          },
+          {
+            "id": "38f1dbd8e73d4fc3",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/Pasted image 20260211234654.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260211234654"
+            }
+          },
+          {
+            "id": "96319d62a6973654",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/Pasted image 20260211234414.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260211234414"
+            }
+          },
+          {
+            "id": "4a18f63d4cfa3eee",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "aws/src/security/IAM.md",
+                "file": "aws/src/cdk/SAM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IAM"
+              "title": "SAM"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -194,23 +267,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "633a265236fdd724",
+  "active": "4a18f63d4cfa3eee",
   "lastOpenFiles": [
+    "aws/src/cdk/AWS CDK & CloudFormation.md",
     "aws/src/serverless/Serverless Application Repository (SAR).md",
+    "aws/src/serverless/Lambda.md",
+    "assets/Pasted image 20260211232941.png",
+    "assets/Pasted image 20260211233127.png",
+    "assets/Pasted image 20260211234414.png",
+    "assets/Pasted image 20260211234654.png",
+    "assets/Pasted image 20260211234746.png",
+    "assets/Pasted image 20260211235023.png",
+    "assets/Pasted image 20260211235033.png",
+    "aws/src/monitoring/AWS X-Ray.md",
+    "aws/src/security/AWS Trusted Advisor.md",
+    "aws/src/security/AWS Security Hub.md",
+    "aws/src/serverless/API Gateway.md",
+    "aws/src/monitoring",
+    "aws/src/security/IAM.md",
     "aws/src/ec2/ASG.md",
     "aws/src/ec2/User Data & Cloud Init.md",
     "aws/src/elastic beanstalk/Elastic Beanstalk.md",
     "assets/Pasted image 20260210232913.png",
     "aws/src/dynamo/DynamoDB.md",
-    "aws/src/cdk/AWS CDK & CloudFormation.md",
     "kubernetes/charts/loki/Compactor.md",
     "aws/src/elastic beanstalk",
     "aws/src/security/KMS.md",
-    "aws/src/serverless/Lambda.md",
     "aws/src/serverless/SQS.md",
-    "aws/src/serverless/API Gateway.md",
     "aws/src/s3/S3.md",
-    "aws/src/security/IAM.md",
     "aws/src/s3",
     "aws/src/network/vpc.md",
     "aws/src/cdk/SAM.md",
@@ -218,17 +302,10 @@
     "aws/certs/Developer Associate Exam - Summary.md",
     "assets/Pasted image 20260209210840.png",
     "assets/Pasted image 20260209224245.png",
-    "assets/Pasted image 20260209223531.png",
-    "assets/Pasted image 20260209222433.png",
-    "assets/Pasted image 20260209210949.png",
-    "assets/Pasted image 20260209210915.png",
-    "assets/Pasted image 20260208211223.png",
     "Untitled.canvas",
     "2026-02-07.md",
-    "assets/Pasted image 20260208205115.png",
     "aws/src/lb/Load Balance Cross-zone.md",
     "aws/src/lb/Application Load Balancer.md",
-    "assets/Pasted image 20260208214843.png",
     "kubernetes/charts/loki/Componentes.canvas",
     "kubernetes/charts/loki/Query Frontend.md",
     "kubernetes/charts/loki/Querier.md",
@@ -237,12 +314,7 @@
     "aws/src/serverless",
     "aws/src/cdk/AWS",
     "aws/src/cdk",
-    "kubernetes/charts/loki/Distributor.md",
     "aws/src/ec2",
-    "Untitled.base",
-    "Untitled 1.base",
-    "aws/src/billing/AWS Budget.md",
-    "kubernetes/charts/loki/Ingester.md",
-    "kubernetes/charts/loki/Ring.md"
+    "Untitled.base"
   ]
 }

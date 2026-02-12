@@ -35,3 +35,7 @@ Resources:
             Path: /api/transaction
             Method: ANY
 ```
+
+Campos obrigatórios:
+- Resources
+- Transform
