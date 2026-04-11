@@ -91,3 +91,27 @@ Se a Role tentar criar um User IAM ela será bloqueado por mais que há essa pol
 Ferramenta capaz de identificar Roles IAM não utilizadas e removê-las sem interromper serviços. Ele faz a busca baseada em logs do AWS CloudTrail, ajudando a identificar Role / Policy que não estão mais em uso, implicando no princípio do menor privilégio.
 
 Vale ressaltar, que o IAM Access Analyzer também é a principal ferramenta quando falamos de detectar S3 públicos erroneamente, tal como outros recursos. Permitindo detectar acessos não intencionais aos seus recursos e dados, reduzindorisco de segurança. Contudo, é útil para IAM Resource-based Policy.
+
+O IAM Access Analyzer analisa acesso externo aos seguintes tipos de recursos:
+- [Buckets do Amazon Simple Storage Service](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/access-analyzer-resources.html#access-analyzer-s3)
+- [Buckets de diretório do Amazon Simple Storage Service](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/access-analyzer-resources.html#access-analyzer-s3-directory)
+- [AWS Identity and Access ManagementFunções do para o](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/access-analyzer-resources.html#access-analyzer-iam-role)
+- [AWS Key Management ServiceChaves do](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/access-analyzer-resources.html#access-analyzer-kms-key)
+- [AWS LambdaFunções e camadas do](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/access-analyzer-resources.html#access-analyzer-lambda)
+- [Filas do Amazon Simple Queue Service](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/access-analyzer-resources.html#access-analyzer-sqs)
+- [AWS Secrets Managersegredos do](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/access-analyzer-resources.html#access-analyzer-secrets-manager)
+- [Tópicos do Amazon Simple Notification Service](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/access-analyzer-resources.html#access-analyzer-sns)
+- [Snapshots de volume do Amazon Elastic Block Store](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/access-analyzer-resources.html#access-analyzer-ebs)
+- [Snapshots de banco de dados do Amazon Relational Database Service](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/access-analyzer-resources.html#access-analyzer-rds-db)
+- [Snapshots de cluster de banco de dados do Amazon Relational Database Service](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/access-analyzer-resources.html#access-analyzer-rds-db-cluster)
+- [Repositórios do Amazon Elastic Container Registry](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/access-analyzer-resources.html#access-analyzer-ecr)
+- [Sistemas de arquivos do Amazon Elastic File System](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/access-analyzer-resources.html#access-analyzer-efs)
+- [Amazon DynamoDB Streams](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/access-analyzer-resources.html#access-analyzer-ddb-stream)
+- [Tabelas do Amazon DynamoDB](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/access-analyzer-resources.html#access-analyzer-ddb-table)
+
+> O IAM Access Analyzer não identifica o acesso público ou entre contas configurado diretamente no próprio banco de dados. O IAM Access Analyzer identifica apenas descobertas para acesso público ou entre contas configurado no snapshot de banco de dados do Amazon RDS.
+
+> ~={red}Importante=~
+> ~={red}Para acesso externo, o IAM Access Analyzer analisa somente políticas aplicadas a recursos na mesma região da AWS em que está habilitado. Para monitorar todos os recursos do seu ambiente da AWS, é necessário criar um analisador de acesso externo para habilitar o IAM Access Analyzer em cada região em que você está usando recursos da AWS compatíveis.=~
+>  ~={red}Para acessos não utilizados, as descobertas do analisador não mudam com base na região. Não é necessário criar um analisador de acesso sem uso em cada região em que você tem recursos.=~
+

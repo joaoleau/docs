@@ -1,7 +1,8 @@
 {
-  "cssTheme": "Notation",
-  "textFontFamily": "Trebuchet MS,Comic Sans MS",
+  "cssTheme": "Obsidianite",
+  "textFontFamily": "Malgun Gothic",
   "baseFontSizeAction": true,
-  "baseFontSize": 20,
-  "theme": "moonstone"
+  "baseFontSize": 19,
+  "theme": "obsidian",
+  "nativeMenus": false
 }

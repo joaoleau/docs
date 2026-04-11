@@ -1,3 +1,6 @@
+- Contrução de Domínio: 
+
+
 Ref: [Versionamentos de APIs e Lambda Aliases](https://www.youtube.com/watch?v=IUD_XHkkdQw)
 ## Usage Plans
 Definem quem pode acessar quais APIs, em quais estágios e métodos, além de controlar a quantidade e a velocidade de acesso. 
