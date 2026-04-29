@@ -1,5 +1,13 @@
 
-- A AWS Lambda aloca capacidade de CPU proporcionalmente à quantidade de memória configurada para a função. Portanto, se é desejo aumentar capacidade de CPU, deverá ser feito ajuste na de memória.~={red} Não tem como ajustar apenas configuração de CPU na Lambda.=~
+- A AWS Lambda aloca capacidade de CPU proporcionalmente à quantidade de memória configurada para a função. Portanto, se é desejo aumentar capacidade de CPU, deverá ser feito ajuste na de memória.~={red} Não tem como ajustar apenas configuração de CPU na Lambda.
+
+| Recurso           | Limite máximo |
+| ----------------- | ------------- |
+| Memory            | 10 GB         |
+| Ephemeral Storage | 10 GB         |
+| Timeout           | 15 minutos    |
+| Max Retry (async) | 3 retries     |
+| Event Age         | 6 horas       |
 
 ## Lambda Authorizer
 Função Lambda personalizada que autentica e autoriza requisições ao API Gateway, validando tokens externos. Camada de autorização para chamadas do API Gateway.
@@ -11,3 +19,4 @@ Você cria para controlar o acesso à sua API. Ele permite implementar estratég
 
 ![[Pasted image 20260211232941.png]]
 ![[Pasted image 20260211233127.png]]
+

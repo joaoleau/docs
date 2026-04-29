@@ -5,6 +5,10 @@ Ferramenta PASS (Platform As Service), provisiona automaticamente banco de dados
 - Pode ser exportado para template Cloudformation, para verificar detalhes de cada recurso criado.
 - `.ebextensions` pasta que pode conter personalizações do seu app, tal como detalhes de infra, destino de logs (envio de logs para o S#), instalação de pacotes, assim como executar comandos pós deployment (exemplo executar determinada lambda depois do deployment). ~={red}De forma análoga é um UserData, ou seja, dado uma configuração de RDS nessa pasta, cada implantação o banco será recriado.=~
 - AWS CLI Commands: `eb init` (inicializa projeto) , `eb create` (cria ambiente), `eb deploy` (faz deploy), `eb terminate` (apaga tudo), `eb open` (abre no navegador)
+
+> O AWS Elastic Beanstalk permite criar múltiplos ambientes independentes para a mesma aplicação, facilitando o isolamento entre desenvolvimento, teste e produção. Ter ambientes separados para desenvolvimento e teste de carga garante que diferentes versões possam ser executadas simultaneamente sem interferência, além de permitir configurações específicas para cada finalidade.
+
+![[Pasted image 20260425122756.png]]
 ## Beanstalk Cleanup
 Ferramenta para deleção dos recursos criados pelo Elastic Beanstalk
 - Encerra ambiente com segurança
@@ -39,6 +43,14 @@ Ferramenta para deleção dos recursos criados pelo Elastic Beanstalk
 	- Elastic Beanstalk enables the Blue Green deployment through the **Swap Environment URLs** feature.
 	- Blue Green deployment provides an almost zero downtime solution, where a new version is deployed to a separate environment, and then CNAMEs of the two environments are swapped to redirect traffic to the new version.
 
+
+![[Pasted image 20260425122433.png]]
+
+**As predefinições de High availability (Alta disponibilidade) incluem um load balancer e são recomendadas para ambientes de produção:** Escolha essa opção se você quiser um ambiente que possa executar várias instâncias com alta disponibilidade e reduzir a resposta à carga. 
+
+**As predefinições de Single instance (Instância única) são recomendadas, principalmente, para desenvolvimento**. Duas das predefinições permitem solicitações de instâncias spot. Para obter detalhes sobre a configuração de capacidade do Elastic Beanstalk, consulte (Grupo do Auto Scaling)
+
+**A última predefinição, Custom configuration (Configuração personalizada),** remove todos os valores recomendados, exceto as configurações de função, e usa os padrões de API. Escolha essa opção se você estiver implantando um pacote de origem com arquivos de configuração que definem opções de configuração. **A Custom configuration (Configuração personalizada) também é selecionada automaticamente quando você modifica as predefinições de configuração Low cost (Baixo custo) ou High availability (Alta disponibilidade)**
 ### Perguntas:
 
 > 1- Você criou uma aplicação Java que utiliza o Amazon RDS como seu principal armazenamento de dados e o ElastiCache para armazenamento de sessões de usuário. A aplicação precisa ser implantada usando o Elastic Beanstalk, e toda nova implantação deve permitir que os servidores da aplicação reutilizem o banco de dados RDS. Por outro lado, os dados de sessão do usuário armazenados no ElastiCache podem ser recriados a cada implantação. Qual das seguintes configurações permitirá alcançar esse objetivo? (Selecione duas.)

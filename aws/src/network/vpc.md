@@ -18,3 +18,5 @@ Subnet
 	- subnet-b: 10.0.16.0/20 -> 10.0.31.255
 	- subnet-c: 10.0.32.0/20 -> 10.0.47.255
 	- subnet-d: 10.0.48.0/20 -> 10.0.63.255
+
+> A Network ACL é uma camada opcional de segurança para sua VPC que funciona como um firewall controlando o tráfego de entrada e saída dos subnets. Como as Network ACLs são **stateless**, é necessário permitir explicitamente o tráfego de saída nas portas efêmeras (1024-65535) para que as respostas às requisições HTTP na porta 80 possam retornar aos clientes, garantindo assim a comunicação bidirecional.

@@ -8,93 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ca0c666fb4739432",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/Pasted image 20260301225729.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260301225729"
-            }
-          },
-          {
-            "id": "35289c3048379636",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/Pasted image 20260409234112.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260409234112"
-            }
-          },
-          {
-            "id": "14eca17ec5b2b721",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/Pasted image 20260301225729.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260301225729"
-            }
-          },
-          {
-            "id": "c785badbca996da2",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/Pasted image 20260409234112.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260409234112"
-            }
-          },
-          {
-            "id": "79736ee8d04bc90e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/Pasted image 20260422213333.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260422213333"
-            }
-          },
-          {
-            "id": "649b97929b6d5bab",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/Pasted image 20260422211603.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260422211603"
-            }
-          },
-          {
-            "id": "b2627c929cb741af",
+            "id": "acca9a6d7b03af1a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "aws/certs/developer/simulados/03.md",
+                "file": "aws/src/serverless/Step Functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03"
+              "title": "Step Functions"
+            }
+          },
+          {
+            "id": "8c434a0c0c6fa381",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tmp/Estudos Implementação de Servidores.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Estudos Implementação de Servidores"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -267,43 +209,45 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b2627c929cb741af",
+  "active": "633a265236fdd724",
   "lastOpenFiles": [
-    "aws/certs/developer/simulados/02.md",
-    "aws/certs/developer/simulados/01.md",
-    "aws/certs/developer/simulados/03.md",
-    "assets/Pasted image 20260423234614.png",
-    "assets/Pasted image 20260424002707.png",
-    "assets/Pasted image 20260424002657.png",
-    "assets/Pasted image 20260424002647.png",
-    "assets/Pasted image 20260424002633.png",
-    "assets/Pasted image 20260424002620.png",
-    "assets/Pasted image 20260424002611.png",
-    "assets/Pasted image 20260424002601.png",
-    "assets/Pasted image 20260424002552.png",
-    "assets/Pasted image 20260424002537.png",
-    "aws/certs/developer/Developer Associate Exam - Summary.md",
-    "aws/src/security/Cognito.md",
-    "aws/src/security/AWS Trusted Advisor.md",
-    "aws/src/security/AWS Security Hub.md",
-    "aws/src/serverless/API Gateway.md",
+    "tmp/SImulado Prova Implementação de Servidores Beletti.md",
+    "tmp/Estudos Implementação de Servidores.md",
+    "aws/certs/developer/simulados/05.md",
+    "assets/Pasted image 20260424205628.png",
+    "aws/src/serverless/Step Functions.md",
     "aws/src/serverless/SQS.md",
     "aws/src/serverless/Serverless Application Repository (SAR).md",
     "aws/src/serverless/Lambda.md",
-    "aws/src/network/vpc.md",
+    "aws/src/serverless/ECS.md",
+    "aws/src/serverless/API Gateway.md",
+    "aws/src/security/KMS.md",
+    "aws/src/security/Criptografia.md",
+    "aws/src/security/IAM.md",
+    "aws/src/security/Cognito.md",
+    "aws/src/security/AWS Trusted Advisor.md",
+    "aws/src/security/AWS Security Hub.md",
     "aws/src/s3/S3.md",
-    "aws/src/lb/Load Balance Cross-zone.md",
-    "aws/src/lb/Application Load Balancer.md",
+    "aws/src/network/CloudFront.md",
+    "aws/src/network/vpc.md",
+    "aws/src/elastic beanstalk/Elastic Beanstalk.md",
     "aws/src/ec2/Monitoring.md",
     "aws/src/ec2/User Data & Cloud Init.md",
-    "aws/src/dynamo/DynamoDB.md",
-    "aws/src/developer tools/AWS DeveloperTools.md",
-    "aws/src/elastic beanstalk/Elastic Beanstalk.md",
-    "aws/src/security/KMS.md",
-    "aws/src/security/IAM.md",
-    "aws/src/monitoring/Cloudwatch.md",
     "aws/src/ec2/ASG.md",
-    "aws/src/kinesis/Consumidores.md",
+    "aws/src/dynamo/DynamoDB.md",
+    "aws/src/cache/Redis.md",
+    "aws/src/developer tools/AWS DeveloperTools.md",
+    "aws/src/cdk/SAM.md",
+    "assets/Pasted image 20260426113032.png",
+    "assets/Pasted image 20260425135303.png",
+    "assets/Pasted image 20260425135137.png",
+    "assets/Pasted image 20260425135127.png",
+    "assets/Pasted image 20260425134939.png",
+    "assets/Pasted image 20260425134920.png",
+    "assets/Pasted image 20260425134905.png",
+    "assets/Pasted image 20260425134433.png",
+    "assets/Pasted image 20260425131223.png",
+    "aws/src/cache",
     "aws/src/kinesis",
     "aws/src/developer tools",
     "aws/certs/developer/simulados",
@@ -313,7 +257,6 @@
     "tmp/detran",
     "tmp",
     "aws/src/monitoring",
-    "aws/src/elastic beanstalk",
     "Untitled.canvas",
     "kubernetes/charts/loki/Componentes.canvas"
   ]

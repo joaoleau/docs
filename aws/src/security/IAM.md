@@ -115,3 +115,6 @@ O IAM Access Analyzer analisa acesso externo aos seguintes tipos de recursos:
 > ~={red}Para acesso externo, o IAM Access Analyzer analisa somente políticas aplicadas a recursos na mesma região da AWS em que está habilitado. Para monitorar todos os recursos do seu ambiente da AWS, é necessário criar um analisador de acesso externo para habilitar o IAM Access Analyzer em cada região em que você está usando recursos da AWS compatíveis.=~
 >  ~={red}Para acessos não utilizados, as descobertas do analisador não mudam com base na região. Não é necessário criar um analisador de acesso sem uso em cada região em que você tem recursos.=~
 
+![[Pasted image 20260425134905.png]]
+![[Pasted image 20260425134920.png]]
+![[Pasted image 20260425134939.png]]
